@@ -281,3 +281,22 @@ hr{
     color: #00000094;
     margin-bottom: 10px;
 }
+
+@media screen and (max-width: 900px) {
+    #main{
+      grid-template-columns: 1fr;
+    }
+
+    #main-right{
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #navbar-children{
+        display: none;
+    }
+    .img-container{
+        height: 300px;
+    }
+}
